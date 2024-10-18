@@ -2,8 +2,23 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+For this lesson you will need:
+
+- 2 computers (eg. two Raspberry Pis or laptops), one which will serve as the 
+login node and one which will be a compute node. These do not need keyboards 
+and screens but it is sometimes handy to have a keyboard and screen for when 
+you run into trouble.
+- One network switch.
+- One laptop or computer which will serve as your workstation. It might prove
+useful for this workstation to have an ethernet port.
+- Three network cables.
+- If your switch has Power over Ethernet (PoE) you might not need power supplies
+for your two node. If they don't, don't forget the power supplies. Also don't 
+forget the power supply for the switch itself.
+- You'll need at least one SD card if you are using Raspberry Pis or any other
+single board computer (SBC). It might be helpful if you have two in case PXE 
+(Preboot eXecution Environment) doesn't want to work.
+
 
 ## Data Sets
 
