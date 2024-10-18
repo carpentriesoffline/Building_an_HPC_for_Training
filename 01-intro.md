@@ -1,7 +1,7 @@
 ---
-title: "Building an HPC for Training"
+title: "Introduction"
 teaching: 10
-exercises: 2
+exercises: 
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -44,16 +44,18 @@ learners might not be able to log in or there are significant delays in getting
 jobs into queues which again affects the timing of the workshop.
 
 All these mentioned issues (and probably more) can be addressed by having a
-dedicated HPC for training. But usually "real" HPCs are very expensive. 
+dedicated HPC for training. But usually "real" HPCs are very expensive and it
+wouldn't be feasible to purchase typical high-end HPC hardware just for a 
+training setup. However, it is completely possible to use low-end hardware to
+create a cluster that will run almost all the required software to learn how
+to use an HPC.
 
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- What is an HPC?
+- What would be the advantages of having an HPC dedicated to training?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
