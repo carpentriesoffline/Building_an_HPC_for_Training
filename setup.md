@@ -4,7 +4,7 @@ title: Setup
 
 The minimum equipment you will need for this lesson would be:
 
-- 2 computers (eg. two Raspberry Pis or laptops), one which will serve as the 
+- 2 Raspberry Pis, one which will serve as the 
 login node and one which will be a compute node. These do not need keyboards 
 and screens but it is sometimes handy to have a keyboard and screen for when 
 you run into trouble.
@@ -15,19 +15,10 @@ useful for this workstation to have an ethernet port.
 - If your switch has Power over Ethernet (PoE) you might not need power supplies
 for your two node. If they don't, don't forget the power supplies. Also don't 
 forget the power supply for the switch itself.
-- You'll need at least one SD card if you are using Raspberry Pis or any other
-single board computer (SBC). It might be helpful if you have two in case PXE 
+- You'll need at least one SD card. It might be helpful if you have two in case PXE 
 (Preboot eXecution Environment) doesn't want to work.
 
 
-## Data Sets
-
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
 
 ## Software Setup
 
