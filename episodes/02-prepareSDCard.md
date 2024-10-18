@@ -1,17 +1,25 @@
 ---
-title: "Preparing an SD Card" teaching: 30 exercises: 20
+title: "Preparing an SD Card" 
+teaching: 30 
+exercises: 20
 ---
+
 :::::::::::::::::::::::::::::::::::::: questions
+
 - Where do you download the Raspberry Pi Imager from?
 - Where do you download the CarpentriesOffline image from?
 - How do you install the Raspberry Pi imager on your computer?
 - What is the CarpentriesOffline image?
 - What is the Raspberry Pi Imager used for?
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: objectives
+
 - download and install the Raspberry Pi imager
 - download and install the CarpentriesOffline image
 - write the CarpentriesOffline image to the SD Card
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ## Introduction
 Every computer needs to load an operating system when you switch it on.
@@ -40,15 +48,18 @@ software to write the image to the SD card.
 Internet connectivity might prove to be a problem during this workshop so your
 instructor might bring an image along that can be copied or perhaps they will
 provide pre-prepared microSD cards.
+
 ::: challenge
 ## Challenge 1: What software do you need to prepare an SD card?
 1. Word 2. Excel 3. Raspberry Pi Imager 4. LibreOffice 5. SonicPi
+
 :::::: solution
 1. Word cannot be used to prepare an SD card, it is a word processor 3. Excel
 cannot be used to prepare an SD card, it is a spreadsheet 4. The correct answer
 is *3* 5. LibreOffice is an office suite and connot be used to prepare an SD
 card 6. SonicPi is a live coding environment to support computing and music
 lessons in schools.
+
 ::::::
 :::
 ::: challenge
@@ -58,6 +69,7 @@ CarpentriesOffline website 4. On the Microsoft website?
 :::::: solution
 ::::::
 :::
+
 If you have not already done so you have to download and install the Raspberry
 Pi Imager. Using your browser, navigate to the Raspberry Pi [download
 page](https://www.raspberrypi.com/software/). You should now be able to select
@@ -106,9 +118,11 @@ You can now remove the SD card from your computer and insert it into the
 Raspberry Pi.
 
 ::::::::::::::::::::::::::::::::::::: keypoints
+
 - Know where to download the Raspberry Pi Imager from
 - Know how to install the Raspberry Pi Imager
 - Know where to download the CarpentriesOffline RPi image
 - Know how to write the CarpentriesOffline image to an SD card
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 [r-markdown]: https://rmarkdown.rstudio.com/
