@@ -18,7 +18,7 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="A step-by-step, hands-on lesson for using laptops, single board computers or whatever is lying around to build an HPC that can be used for training and prototyping." src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
+        <img id="incubator-logo" alt="A step-by-step, hands-on lesson for using Raspberry Pi single board computers to build an HPC that can be used for training and prototyping." src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
           <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
             <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#early-development-pre-alpha-through-alpha" class="external-link alert-link">
               <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
@@ -71,7 +71,7 @@
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="A step-by-step, hands-on lesson for using laptops, single board computers or whatever is lying around to build an HPC that can be used for training and prototyping." src="assets/images/incubator-logo-sm.svg"></div>
+      <img class="small-logo" alt="A step-by-step, hands-on lesson for using Raspberry Pi single board computers to build an HPC that can be used for training and prototyping." src="assets/images/incubator-logo-sm.svg"></div>
     <div class="lesson-title-md">
       Building an HPC for Training
     </div>
@@ -207,8 +207,7 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#data-sets">Data Sets</a></li>
-<li><a href="#software-setup">Software Setup</a></li>
+        <ul><li><a href="#software-setup">Software Setup</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -228,6 +227,51 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
         <a href="02-prepareSDCard.html">2. Preparing an SD Card</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-booting_and_updating.html">3. Booting and Updating</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-installing_eessi.html">4. An episode</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-working_with_modules.html">5. An episode</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-installing_pxe.html">6. An episode</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="07-installing_scheduler.html">7. An episode</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -292,10 +336,10 @@ any links that you are not going to use.
 
 
       <section id="setup"><p>The minimum equipment you will need for this lesson would be:</p>
-<ul><li>2 computers (eg. two Raspberry Pis or laptops), one which will serve
-as the login node and one which will be a compute node. These do not
-need keyboards and screens but it is sometimes handy to have a keyboard
-and screen for when you run into trouble.</li>
+<ul><li>2 Raspberry Pis, one which will serve as the login node and one
+which will be a compute node. These do not need keyboards and screens
+but it is sometimes handy to have a keyboard and screen for when you run
+into trouble.</li>
 <li>One network switch.</li>
 <li>One laptop or computer which will serve as your workstation. It
 might prove useful for this workstation to have an ethernet port.</li>
@@ -303,18 +347,10 @@ might prove useful for this workstation to have an ethernet port.</li>
 <li>If your switch has Power over Ethernet (PoE) you might not need
 power supplies for your two node. If they don’t, don’t forget the power
 supplies. Also don’t forget the power supply for the switch itself.</li>
-<li>You’ll need at least one SD card if you are using Raspberry Pis or
-any other single board computer (SBC). It might be helpful if you have
+<li>You’ll need at least one SD card. It might be helpful if you have
 two in case PXE (Preboot eXecution Environment) doesn’t want to
 work.</li>
-</ul><section><h2 class="section-heading" id="data-sets">Data Sets<a class="anchor" aria-label="anchor" href="#data-sets"></a></h2>
-<hr class="half-width"><!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
---><p>Download the <a href="https://example.com/FIXME" class="external-link">data zip file</a>
-and unzip it to your Desktop</p>
-</section><section><h2 class="section-heading" id="software-setup">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a></h2>
+</ul><section><h2 class="section-heading" id="software-setup">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a></h2>
 <hr class="half-width"><div id="details" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -394,12 +430,12 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/index.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/carpentriesoffline/Building_an_HPC_for_Training/edit/main/index.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-md/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:jannetta.steyn@newcastle.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/carpentriesoffline/Building_an_HPC_for_Training/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/carpentriesoffline/Building_an_HPC_for_Training/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/carpentriesoffline/Building_an_HPC_for_Training/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:jannetta.steyn@newcastle.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -418,15 +454,15 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://carpentries.github.io/workbench-template-md/index.html",
+  "@id": "https://carpentriesoffline.github.io/Building_an_HPC_for_Training/index.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "software, data, lesson, The Carpentries, Raspberry Pi, HPC",
   "name": "Building an HPC for Training",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/index.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/index.html",
+  "url": "https://carpentriesoffline.github.io/Building_an_HPC_for_Training/index.html",
+  "identifier": "https://carpentriesoffline.github.io/Building_an_HPC_for_Training/index.html",
   "dateCreated": "2024-10-18",
   "dateModified": "2024-10-18",
   "datePublished": "2024-10-18"

@@ -1,81 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/01-intro.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/01-intro.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/02-prepareSDCard.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/02-prepareSDCard.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/03-booting_and_updating.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/04-installing_eessi.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/05-working_with_modules.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/06-installing_pxe.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/07-installing_scheduler.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/01-intro.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/02-prepareSDCard.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/01-intro.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/02-prepareSDCard.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/03-booting_and_updating.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/04-installing_eessi.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/05-working_with_modules.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/06-installing_pxe.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/07-installing_scheduler.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentriesoffline.github.io/Building_an_HPC_for_Training/reference.html</loc>
   </url>
 </urlset>
