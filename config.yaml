@@ -15,32 +15,32 @@
 carpentry: 'incubator'
 
 # Alt-text description of the lesson.
-carpentry_description: 'A step-by-step, hands-on lesson for using laptops, single board computers or whatever is lying around to build an HPC that can be used for training and prototyping.'
+carpentry_description: 'A step-by-step, hands-on lesson for using Raspberry Pi single board computers to build an HPC that can be used for training and prototyping.'
 
 # Overall title for pages.
-title: 'Building an HPC for Training' # FIXME
+title: 'Building an HPC for Training'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~ # 2024-10-15
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, data, lesson, The Carpentries, Raspberry Pi, HPC'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha' #
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/carpentriesoffline/Building_an_HPC_for_Training'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'jannetta.steyn@newcastle.ac.uk' # FIXME
+contact: 'jannetta.steyn@newcastle.ac.uk'
 
 # Navigation ------------------------------------------------
 #
@@ -68,6 +68,11 @@ contact: 'jannetta.steyn@newcastle.ac.uk' # FIXME
 episodes:
 - 01-intro.md
 - 02-prepareSDCard.md
+- 03-booting_and_updating.md
+- 04-installing_eessi.md
+- 05-working_with_modules.md
+- 06-installing_pxe.md
+- 07-installing_scheduler.md
 
 # Information for Learners
 learners:
@@ -82,5 +87,3 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-

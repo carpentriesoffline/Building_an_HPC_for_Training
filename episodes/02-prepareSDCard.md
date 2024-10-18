@@ -51,22 +51,21 @@ provide pre-prepared microSD cards.
 
 ::: challenge
 ## Challenge 1: What software do you need to prepare an SD card?
-1. Word 2. Excel 3. Raspberry Pi Imager 4. LibreOffice 5. SonicPi
+1. Word 
+2. Excel 
+3. Raspberry Pi Imager 
+4. LibreOffice 
+5. SonicPi
 
 :::::: solution
-1. Word cannot be used to prepare an SD card, it is a word processor 3. Excel
-cannot be used to prepare an SD card, it is a spreadsheet 4. The correct answer
-is *3* 5. LibreOffice is an office suite and connot be used to prepare an SD
-card 6. SonicPi is a live coding environment to support computing and music
+1. Word cannot be used to prepare an SD card, it is a word processor 
+2. Excel cannot be used to prepare an SD card, it is a spreadsheet 
+3. The correct answer is *3* 
+5. LibreOffice is an office suite and connot be used to prepare an SD
+card 
+6. SonicPi is a live coding environment to support computing and music
 lessons in schools.
 
-::::::
-:::
-::: challenge
-## Challenge 2: Where would you find the CarpentriesOffline image?
-1. On the Raspberry Pi website 2. On The Carpentries website 3. On the
-CarpentriesOffline website 4. On the Microsoft website?
-:::::: solution
 ::::::
 :::
 
@@ -84,13 +83,13 @@ Raspberry Pi Imager software intro screen'}
 
 You can now click on the **Choose OS** button which will open a window for
 selecting the image you want to write to the SD card. Scroll down to the bottom
-where you should find an option **Use custom**. Click on that option:
+where you should find an option **Raspberry Pi OS (other)**. Click on that option:
 
 ![Selecting an image to write to the SD card](fig/ChooseImage.png){alt='An image
 of the RPi Imager software screen for selecting an image to be written to the SD
 card'}
 
-Navigate to where you saved the CarpentriesOffline image and select it. Make
+Select **Raspberry Pi OS Lite (64 bit)**. Make
 sure you have inserted the SD card into your computer. Now click on the **Choose
 Storage** button and select the device you want to write the image to: 
 
