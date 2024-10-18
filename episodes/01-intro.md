@@ -14,7 +14,6 @@ exercises: 0
 
 - Explain the the reasons (advantages) for building an HPC for training.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
