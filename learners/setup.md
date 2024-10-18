@@ -2,7 +2,7 @@
 title: Setup
 ---
 
-For this lesson you will need:
+The minimum equipment you will need for this lesson would be:
 
 - 2 computers (eg. two Raspberry Pis or laptops), one which will serve as the 
 login node and one which will be a compute node. These do not need keyboards 
