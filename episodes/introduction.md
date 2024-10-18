@@ -1,39 +1,50 @@
 ---
-title: "Using Markdown"
+title: "Building an HPC for Training"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- Why would you want to build an HPC for training?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain the the reasons (advantages) for building an HPC for training.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+When running a workshop to teach learners how to use an HPC, an instructor is
+immediately presented with a few problems:
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+1. Very few users ever get to see an HPC in real life and it is left to 
+imaginations and sci-fi movies to visualise what an HPC is. To many this is
+quite a scary concept. 
+1. Training on a "real" HPC can cause learners to be anxious that they might 
+"break" something.
+1. Access to an HPC needs to be arranged. This is not always a trivial task as
+the use of HPC resources can be quite restricted in terms of who are allowed
+to use a specific HPC. 
+1. Workshop attendees often do not read their emails 
+requesting them to create accounts before they turn up for the workshop which
+results in instructors having to create accounts on the day. Apart from quite
+often delaying the start of the workshop, it is also not always possible for 
+instructors to create the user accounts on the day.
+1. HPC resources are always in demand and running a workshop on a "real" HPC
+takes resources away from "real" processes running at the time.
+1. HPCs typically have to be connected to via the Internet. Any issues with 
+accessing the Internet will affect the workshop.
+1. If an HPC is heavily used or if someone runs a job on the login node, 
+learners might not be able to log in or there are significant delays in getting
+jobs into queues which again affects the timing of the workshop.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+All these mentioned issues (and probably more) can be addressed by having a
+dedicated HPC for training. But usually "real" HPCs are very expensive. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
