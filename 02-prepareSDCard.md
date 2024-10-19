@@ -21,6 +21,7 @@ exercises: 20
 - write the CarpentriesOffline image to the SD Card
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Introduction
 Every computer needs to load an operating system when you switch it on.
 Therefore it will usually have a default place where it will look for an
@@ -50,6 +51,7 @@ instructor might bring an image along that can be copied or perhaps they will
 provide pre-prepared microSD cards.
 
 ::: challenge
+
 ## Challenge 1: What software do you need to prepare an SD card?
 1. Word 
 2. Excel 
@@ -61,13 +63,16 @@ provide pre-prepared microSD cards.
 1. Word cannot be used to prepare an SD card, it is a word processor 
 2. Excel cannot be used to prepare an SD card, it is a spreadsheet 
 3. The correct answer is *3* 
-5. LibreOffice is an office suite and connot be used to prepare an SD
+4. LibreOffice is an office suite and connot be used to prepare an SD
 card 
-6. SonicPi is a live coding environment to support computing and music
+5. SonicPi is a live coding environment to support computing and music
 lessons in schools.
 
 ::::::
 :::
+
+The Raspberry Pi can run several operating systems including several flavours
+of Linux. The official Raspberry Pi OS is based on Debian Linux.
 
 If you have not already done so you have to download and install the Raspberry
 Pi Imager. Using your browser, navigate to the Raspberry Pi [download
