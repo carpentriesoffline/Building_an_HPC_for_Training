@@ -2,6 +2,11 @@
 title: Setup
 ---
 
+In this lesson you will learn how to create a high performance computer using
+Raspberry Pi single board computers. The skills you learn will be transferrable
+to any unix type operating system. The focus of this lesson is on the software
+that is typically used on HPCs and not the hardware.
+
 The minimum equipment you will need for this lesson would be:
 
 - 2 Raspberry Pis, one which will serve as the 
